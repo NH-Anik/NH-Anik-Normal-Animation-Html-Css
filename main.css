@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.backpic picture img{
+    height: 900px;
+    width: 1900px
+}
+.backpic{
+    position: relative;
+}
+.bilding{
+    position: absolute;
+    box-sizing: border-box;  
+    top: 0px;
+    left: 0px;
+}
+
+.bilding img{
+    height: 400px;
+    width: 800px;
+}
+
+.b2{
+    position: absolute;
+    top: 0px;
+    left: 1885px;
+    animation: rod1 3s linear infinite;
+}
+.b1{
+    position: absolute;
+    animation: rod1 3s linear infinite;
+}
+
+.road{
+    position: absolute;
+    top: 380px;
+    left: 0;
+}
+.arod1 img{
+    position: absolute;
+    top: -1px;
+    left: 1895px;
+    animation: rod1 3s linear infinite;
+}
+@keyframes rod1{
+    100%{
+        transform: translateX(-1920px);
+    }
+}
+
+.arod img{
+    animation: rod 3s linear infinite;
+}
+@keyframes rod{
+    100%{
+        transform: translateX(-1920px);
+    }
+}
+
+
+/* car start */
+.c {
+    position: absolute;
+    left: 27px;
+    top: 73px;
+}
+
+.car img{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 340px;
+    left: 500px;
+}
+
+.caka img {
+    height: 172px;
+    width: 390px;
+    position: absolute;
+    top: 406px;
+    left: 415px;
+    animation: caka1 1s linear infinite;
+}
+
+@keyframes caka1{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.caka1 img {
+    height: 172px;
+    width: 390px;
+    position: absolute;
+    top: 406px;
+    left: 626px;
+    animation: caka2 1s linear infinite;
+}
+@keyframes caka2{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* car css end */
